@@ -19,6 +19,9 @@ export class StudentListComponent implements OnInit {
   ngOnInit(): void {
     this.StudentService.GetStudents().subscribe(students => {
       this.students = students
+      this.students.sort((a:any,b:any) => {
+        return a.lastName - b.lastName
+      })
     })
 
     if(addedStudent) {

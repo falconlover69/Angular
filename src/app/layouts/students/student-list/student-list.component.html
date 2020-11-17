@@ -2,6 +2,6 @@
 <app-student-item
     *ngFor="let student of students"
     [student] = "student"
-    (DeleteStudent)="deleteStudent($event)"
-    (ChangeStudent)="changeStudent($event)"
+    (deleteStudent)="deleteStudent($event)"
+    (changeStudent)="changeStudent($event)"
 ></app-student-item>

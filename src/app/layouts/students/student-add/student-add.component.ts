@@ -10,6 +10,8 @@ let addedStudent:any
 })
 class StudentAddComponent implements OnInit {
 
+  
+
   constructor(private StudentService:ServiceService) { }
 
   ngOnInit(): void {

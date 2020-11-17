@@ -13,11 +13,13 @@ import { FormGroup, FormControl, Validators, FormsModule } from '@angular/forms'
 export class StudentItemComponent implements OnInit {
 
   @Input() student!:Student
-  @Output() deleteStudent:EventEmitter<Student> = new EventEmitter()
+  @Output() deleteStudent:EventEmitter<Student> = new EventEmitter() 
+  // changeStudent = new EventEmitter<Student>()
   @Output() changeStudent:EventEmitter<Student> = new EventEmitter()
+  //  changeStudent = new EventEmitter<Student>()
 
   StudentForm!:FormGroup
-  disabledForms = false
+  disabledForms:Boolean = false
   modalRef!:BsModalRef
 
   constructor(private StudentService:ServiceService, private modalService:BsModalService) { }

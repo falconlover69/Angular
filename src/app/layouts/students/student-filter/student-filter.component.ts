@@ -10,17 +10,23 @@ export class StudentFilterComponent implements OnInit {
 
   @Input() students:Student[] = []
 
+  
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  GroupFilter(group:String) {
-
+  GroupFilter(group:any) {
+    this.students = this.students.filter(s => !s.group.search(group))
+    // if (this.students.length == 0 && group == '') this.students = this.studentsForSort
+    console.log('GROUP:::', group)
+    console.log('HI GROUP:::',this.students)
   }
 
-  DirectionOfTrainingFilter(directionOfTraining:String) {
-
+  DirectionOfTrainingFilter(directionOfTraining:any) {
+    this.students = this.students.filter(s => s.directionOfTraining.includes(directionOfTraining))
+    console.log('HI directionOfTraining:::', this.students)
   }
 
 }

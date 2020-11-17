@@ -1,37 +1,59 @@
 {
-    "students": [
-        {
-            "id": 1, 
-            "lastName": "Ivanov", 
-            "name": "Greg", 
-            "patronymic": "Alexandrovich", 
-            "phone": "79775709430", 
-            "email": "Greg@mail.ru", 
-            "dateOfBirth" : "03.10.1999", 
-            "group": "181-321", 
-            "directionOfTraining": "Web technologies"
-        },
-        {
-            "id": 2, 
-            "lastName": "Ruvas", 
-            "name": "Grek",
-            "patronymic": "Kakoytovich", 
-            "phone": "79779999999", 
-            "email": "Ruvas@mail.ru", 
-            "dateOfBirth" : "05.05.1985", 
-            "group": "181-321", 
-            "directionOfTraining": "Web technologies"
-        },
-        {
-            "id": 3, 
-            "lastName": "Alex", 
-            "name": "Alectov", 
-            "patronymic": "Kakoytovich", 
-            "phone": "79779999999", 
-            "email": "Alex@mail.ru", 
-            "dateOfBirth" : "07.07.1977", 
-            "group": "181-321", 
-            "directionOfTraining": "Web technologies"
-        }
-    ]
+  "students": [
+    {
+      "id": 1,
+      "lastName": "Ivanov",
+      "name": "Greg1",
+      "patronymic": "Alexandrovich",
+      "phone": "79775709430",
+      "email": "Greg@mail.ru",
+      "dateOfBirth": "03.10.1999",
+      "group": "672-581",
+      "directionOfTraining": "Web technologies"
+    },
+    {
+      "id": 2,
+      "lastName": "Ruvas",
+      "name": "Greg1",
+      "patronymic": "Kakoytovich",
+      "phone": "79779999999",
+      "email": "Ruvas@mail.ru",
+      "dateOfBirth": "05.05.1985",
+      "group": "181-321",
+      "directionOfTraining": "Web technologies"
+    },
+    {
+      "id": 3,
+      "lastName": "Alex",
+      "name": "Alectov",
+      "patronymic": "Kakoytovich",
+      "phone": "79779999999",
+      "email": "Alex@mail.ru",
+      "dateOfBirth": "07.07.1977",
+      "group": "181-321",
+      "directionOfTraining": "Web technologies"
+    },
+    {
+      "lastName": "Ivaniv",
+      "name": "Greg",
+      "patronymic": "Al",
+      "phone": "7977898988",
+      "email": "Greg@mail.com",
+      "dateOfBirth": "33.33.33",
+      "group": "181-323",
+      "directionOfTraining": "Веб",
+      "id": 4
+    },
+    {
+      "lastName": "Саня",
+      "name": "Ты в",
+      "patronymic": "Порядке",
+      "phone": "Ты в ",
+      "email": "poryadke@sanya.ru",
+      "dateOfBirth": "sanya",
+      "group": "372-171",
+      "directionOfTraining": "Корпоративный технологии",
+      "id": 5
+    }
+  ]
 }
