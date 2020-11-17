@@ -1,0 +1,7 @@
+<app-student-filter [students]="students"></app-student-filter>
+<app-student-item
+    *ngFor="let student of students"
+    [student] = "student"
+    (DeleteStudent)="deleteStudent($event)"
+    (ChangeStudent)="changeStudent($event)"
+></app-student-item>

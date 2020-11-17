@@ -1,0 +1,42 @@
+<div class="container">
+    <form class="addStudent">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Фамилия</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" #lastName>
+            <small id="emailHelp" class="form-text text-muted">Навзвание товара</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Имя</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" #name>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword2">Отчество</label>
+            <input type="text" class="form-control" id="exampleInputPassword2" #patronymic>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword3">телефон</label>
+            <input type="text" class="form-control" id="exampleInputPassword3" #phone>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword4">email</label>
+            <input type="text" class="form-control" id="exampleInputPassword4" #email>
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleInputPassword5">Дата рождения</label>
+            <input type="text" class="form-control" id="exampleInputPassword5" #dateOfBirth>
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleInputPassword6">Группа</label>
+            <input type="text" class="form-control" id="exampleInputPassword6" #group>
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleInputPassword7">Напраление</label>
+            <input type="text" class="form-control" id="exampleInputPassword7" #directionOfTraining>
+        </div>
+        
+        <button type="submit" class="btn btn-primary" (click)="AddStudent(lastName.value, name.value, patronymic.value, phone.value, email.value, dateOfBirth.value, group.value, directionOfTraining.value)">Submit</button>
+    </form>
+</div>
