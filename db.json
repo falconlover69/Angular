@@ -3,7 +3,7 @@
     {
       "id": 1,
       "lastName": "Ivanov",
-      "name": "Greg1",
+      "name": "Андрей",
       "patronymic": "Alexandrovich",
       "phone": "79775709430",
       "email": "Greg@mail.ru",
@@ -54,6 +54,17 @@
       "group": "372-171",
       "directionOfTraining": "Корпоративный технологии",
       "id": 5
+    },
+    {
+      "lastName": "Вася",
+      "name": "Вася",
+      "patronymic": "Вася",
+      "phone": "79775709340",
+      "email": "Вася@mail.ru",
+      "dateOfBirth": "09.10.1990",
+      "group": "181-321",
+      "directionOfTraining": "Веб технологии",
+      "id": 6
     }
   ]
 }
